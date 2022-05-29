@@ -1,3 +1,45 @@
+html {
+    height: 100%; /*um Hintergrund auf ganze Seite zu strecken*/
+}
+
 body {
+    height: 100%; /*Um Hintergrund auf ganze Seite zu strecken*/
     font-family: 'EB Garamond', serif;
+    background: linear-gradient(#71b48d, #404e7c);
+    background-repeat: no-repeat;
+    margin: 0; /*Um Spalte am unteren Seitenrand zu entfernen*/
+}
+
+#hero-section {
+    color: white;
+    background-image: url(images/dirtmouth2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%; /*Damit Hintergrundbild nicht abgeschnitten wird*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+    height: 340px;
+}
+
+#hero-title {
+    margin: -10px 0 90px 0;
+    color: #86cb92;
+    background-color: #260f26;
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+#hero-desc {
+    width: 500px;
+    text-align: center;
+    color: #71b48d;
+    background-color: #1C1738;
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-shadow: 0 0 5px white;
 }
