@@ -55,12 +55,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    max-width: 250px;
 }
 
 .activity-img {
     height: 130px;
     width: 130px;
     border-radius: 50%;
+    padding: 0;
 }
 
 .activity-title {
@@ -75,4 +78,5 @@ body {
     font-size: 1.1em;
     font-weight: 400;
     text-shadow: 0 0 9px #86CB92;
+    max-lines: [3 | 1];
 }
