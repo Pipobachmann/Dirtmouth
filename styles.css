@@ -1,6 +1,3 @@
-html {
-    height: 100%; /*um Hintergrund auf ganze Seite zu strecken*/
-}
 
 body {
     height: 100%; /*Um Hintergrund auf ganze Seite zu strecken*/
@@ -22,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     min-width: none;
-    height: 340px;
+    height: 360px;
 }
 
 #hero-title {
@@ -48,6 +45,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: -70px;
 }
 
 .activity {
@@ -80,3 +78,75 @@ body {
     text-shadow: 0 0 9px #86CB92;
     max-lines: [3 | 1];
 }
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#guide-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 260px;
+    margin: 50px 160px;
+    border: solid black;
+    background-color: #404E7C;
+    border-radius: 0 19px;
+    border-bottom-width: 8px;
+    cursor: pointer;
+}
+
+#guide-img {
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+    transition: transform .9s ease-in-out;
+}
+
+#guide-img:hover {
+    transform: rotate(360deg);
+  }
+
+#guide-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+    text-shadow: 0 0 5px black;
+    color: #86cb92;
+}
+
+#guide-desc h3 {
+    font-size: 1.4em;
+}
+
+#guide-desc p {
+    color: #86cb92;
+    text-shadow: 0 0 9px #1C1738;
+}
+
+#guide-desc h3:hover,
+#guide-desc p:hover, 
+#guide-desc h4:hover {
+    background-color: #251f47
+}
+
+#guide-text {
+    text-align: center;
+}
+
+#footer {
+    height: 10%;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 5px;
+    background-color: #B9FFB3;
+    text-align: center;
+}
+
+
+ 

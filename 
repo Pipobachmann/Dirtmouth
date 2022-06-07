@@ -1,0 +1,37 @@
+[33mcommit e37e42f7a538f085a5a3f76561129ded7ac7fe4d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Pipobachmann <bachmannphilipp94@gmail.com>
+Date:   Thu Jun 2 18:44:43 2022 +0200
+
+    add title and description to remaining activities,
+    set alignment between activities
+
+[33mcommit eec4d1a04d41ad5821b5e9e18397f654d34f1c18[m
+Author: Pipobachmann <bachmannphilipp94@gmail.com>
+Date:   Thu Jun 2 18:19:18 2022 +0200
+
+    Add first activity and description, lay out elements, style text and
+    images..
+
+[33mcommit b80228f4785378455a313ff754b013d79684e53a[m
+Author: Pipobachmann <bachmannphilipp94@gmail.com>
+Date:   Sun May 29 14:09:35 2022 +0200
+
+    Add hero section, set style and background image.
+
+[33mcommit 8587dd6ad98719f6c1371413150294a807eb1642[m
+Author: Pipobachmann <bachmannphilipp94@gmail.com>
+Date:   Sun May 29 12:17:54 2022 +0200
+
+    Add images and fonts
+
+[33mcommit f193331d49f88567bf1c3140b18789a4218e36b8[m
+Author: Pipobachmann <bachmannphilipp94@gmail.com>
+Date:   Fri May 27 16:41:51 2022 +0200
+
+    Add index and stylesheet, create boilerplate layout for website
+
+[33mcommit e65b006bda20391121b902fd438a71568aa8a513[m
+Author: Philipp Bachmann <89298372+Pipobachmann@users.noreply.github.com>
+Date:   Fri May 27 16:26:36 2022 +0200
+
+    Initial commit
