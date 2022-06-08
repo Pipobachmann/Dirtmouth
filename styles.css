@@ -148,5 +148,27 @@ body {
     text-align: center;
 }
 
+#footer {
+    color: #260f26;
+    text-shadow: 0 0 1px black;
+}
 
+.link {
+    color: #404E7C;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link:visited {
+    color: #260f26;
+}
+
+.link:active {
+    color: yellow;
+}
  
+.link:focus {
+    color: aqua;
+}

@@ -28,3 +28,6 @@ When done:
 1. Deploy it to the web (via Github)
 2. Share it on Discord
 3. Tweet it out (no Twitter, so optional)
+
+Site published through github at: https://pipobachmann.github.io/Dirtmouth/
+
